@@ -84,8 +84,7 @@ app.get("/clear", async (request, response) => {
 });
 
 app.get("/input", async (request, response) => {
-  const variables = { portNumber: portNumber };
-  response.render("input", variables);
+  response.render("input");
 });
 
 app.post("/input", async (request, response) => {
@@ -99,8 +98,7 @@ app.post("/input", async (request, response) => {
     const information = {name: name, temperature: temp, time: time};
     await newApplication(information);
     console.log(result);
-    const variables = { portNumber: portNumber};
-    response.render("input", variables);
+    response.render("input");
 });
 
 
