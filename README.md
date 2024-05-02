@@ -3,4 +3,4 @@
 **App Description:** Allow user to see weather based on city entered and stores results
 **YouTube Video Link:** 
 **APIS:** WeatherAPI http://api.weatherapi.com/v1
-**Contact Email:** ama626@terpmail.umd.edu# CMSC335Final
+**Contact Email:** ama626@terpmail.umd.edu

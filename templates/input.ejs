@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "application.css"  type="text/css">
+    <script type="text/javascript" src="/CMSC335FinalProject/application.js"></script>
+</head>
+<body>
+    <h1 id = "blue">Weather Application</h1>
+    <form action="http://localhost:<%- portNumber %>/input" method="post">
+        <strong>
+        <label>Input City: <input type="text" name="name"/></label>
+        </strong>
+        <br>
+        <input type="reset">
+		<input type="submit">
+        <br>
+        <a href="/">To return home and view table, click here</a>
+    </form>
+    <hr>
+</body>
+</html>
